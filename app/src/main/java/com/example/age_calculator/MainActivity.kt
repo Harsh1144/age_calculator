@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         var month = myCalender.get(Calendar.MONTH)
         var day = myCalender.get(Calendar.DAY_OF_MONTH)
 
+
         DatePickerDialog(this
             ,DatePickerDialog.OnDateSetListener{
                     view,year,month,day->
@@ -52,7 +53,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 var textView2= findViewById<TextView>(R.id.textView2)
-                textView2.text="$age years $month months $day days old"
+                textView2.text="$age years $month months $day days old  "
 
 
 
